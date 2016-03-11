@@ -1,0 +1,2113 @@
+fileFormatVersion: 2
+guid: f7e939bfde344f845b4206317444270b
+timeCreated: 1457678301
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: joustsprites_0
+    21300002: joustsprites_1
+    21300004: joustsprites_2
+    21300006: joustsprites_3
+    21300008: joustsprites_4
+    21300010: joustsprites_5
+    21300012: joustsprites_6
+    21300014: joustsprites_7
+    21300016: joustsprites_8
+    21300018: joustsprites_9
+    21300020: joustsprites_10
+    21300022: joustsprites_11
+    21300024: joustsprites_12
+    21300026: joustsprites_13
+    21300028: joustsprites_14
+    21300030: joustsprites_15
+    21300032: joustsprites_16
+    21300034: joustsprites_17
+    21300036: joustsprites_18
+    21300038: joustsprites_19
+    21300040: joustsprites_20
+    21300042: joustsprites_21
+    21300044: joustsprites_22
+    21300046: joustsprites_23
+    21300048: joustsprites_24
+    21300050: joustsprites_25
+    21300052: joustsprites_26
+    21300054: joustsprites_27
+    21300056: joustsprites_28
+    21300058: joustsprites_29
+    21300060: joustsprites_30
+    21300062: joustsprites_31
+    21300064: joustsprites_32
+    21300066: joustsprites_33
+    21300068: joustsprites_34
+    21300070: joustsprites_35
+    21300072: joustsprites_36
+    21300074: joustsprites_37
+    21300076: joustsprites_38
+    21300078: joustsprites_39
+    21300080: joustsprites_40
+    21300082: joustsprites_41
+    21300084: joustsprites_42
+    21300086: joustsprites_43
+    21300088: joustsprites_44
+    21300090: joustsprites_45
+    21300092: joustsprites_46
+    21300094: joustsprites_47
+    21300096: joustsprites_48
+    21300098: joustsprites_49
+    21300100: joustsprites_50
+    21300102: joustsprites_51
+    21300104: joustsprites_52
+    21300106: joustsprites_53
+    21300108: joustsprites_54
+    21300110: joustsprites_55
+    21300112: joustsprites_56
+    21300114: joustsprites_57
+    21300116: joustsprites_58
+    21300118: joustsprites_59
+    21300120: joustsprites_60
+    21300122: joustsprites_61
+    21300124: joustsprites_62
+    21300126: joustsprites_63
+    21300128: joustsprites_64
+    21300130: joustsprites_65
+    21300132: joustsprites_66
+    21300134: joustsprites_67
+    21300136: joustsprites_68
+    21300138: joustsprites_69
+    21300140: joustsprites_70
+    21300142: joustsprites_71
+    21300144: joustsprites_72
+    21300146: joustsprites_73
+    21300148: joustsprites_74
+    21300150: joustsprites_75
+    21300152: joustsprites_76
+    21300154: joustsprites_77
+    21300156: joustsprites_78
+    21300158: joustsprites_79
+    21300160: joustsprites_80
+    21300162: joustsprites_81
+    21300164: joustsprites_82
+    21300166: joustsprites_83
+    21300168: joustsprites_84
+    21300170: joustsprites_85
+    21300172: joustsprites_86
+    21300174: joustsprites_87
+    21300176: joustsprites_88
+    21300178: joustsprites_89
+    21300180: joustsprites_90
+    21300182: joustsprites_91
+    21300184: joustsprites_92
+    21300186: joustsprites_93
+    21300188: joustsprites_94
+    21300190: joustsprites_95
+    21300192: joustsprites_96
+    21300194: joustsprites_97
+    21300196: joustsprites_98
+    21300198: joustsprites_99
+    21300200: joustsprites_100
+    21300202: joustsprites_101
+    21300204: joustsprites_102
+    21300206: joustsprites_103
+    21300208: joustsprites_104
+    21300210: joustsprites_105
+    21300212: joustsprites_106
+    21300214: joustsprites_107
+    21300216: joustsprites_108
+    21300218: joustsprites_109
+    21300220: joustsprites_110
+    21300222: joustsprites_111
+    21300224: joustsprites_112
+    21300226: joustsprites_113
+    21300228: joustsprites_114
+    21300230: joustsprites_115
+    21300232: joustsprites_116
+    21300234: joustsprites_117
+    21300236: joustsprites_118
+    21300238: joustsprites_119
+    21300240: joustsprites_120
+    21300242: joustsprites_121
+    21300244: joustsprites_122
+    21300246: joustsprites_123
+    21300248: joustsprites_124
+    21300250: joustsprites_125
+    21300252: joustsprites_126
+    21300254: joustsprites_127
+    21300256: joustsprites_128
+    21300258: joustsprites_129
+    21300260: joustsprites_130
+    21300262: joustsprites_131
+    21300264: joustsprites_132
+    21300266: joustsprites_133
+    21300268: joustsprites_134
+    21300270: joustsprites_135
+    21300272: joustsprites_136
+    21300274: joustsprites_137
+    21300276: joustsprites_138
+    21300278: joustsprites_139
+    21300280: joustsprites_140
+    21300282: joustsprites_141
+    21300284: joustsprites_142
+    21300286: joustsprites_143
+    21300288: joustsprites_144
+    21300290: joustsprites_145
+    21300292: joustsprites_146
+    21300294: joustsprites_147
+    21300296: joustsprites_148
+    21300298: joustsprites_149
+    21300300: joustsprites_150
+    21300302: joustsprites_151
+    21300304: joustsprites_152
+    21300306: joustsprites_153
+    21300308: joustsprites_154
+    21300310: joustsprites_155
+    21300312: joustsprites_156
+    21300314: joustsprites_157
+    21300316: joustsprites_158
+    21300318: joustsprites_159
+    21300320: joustsprites_160
+    21300322: joustsprites_161
+    21300324: joustsprites_162
+    21300326: joustsprites_163
+    21300328: joustsprites_164
+    21300330: joustsprites_165
+    21300332: joustsprites_166
+    21300334: joustsprites_167
+    21300336: joustsprites_168
+    21300338: joustsprites_169
+    21300340: joustsprites_170
+    21300342: joustsprites_171
+    21300344: joustsprites_172
+    21300346: joustsprites_173
+    21300348: joustsprites_174
+    21300350: joustsprites_175
+    21300352: joustsprites_176
+    21300354: joustsprites_177
+    21300356: joustsprites_178
+    21300358: joustsprites_179
+    21300360: joustsprites_180
+    21300362: joustsprites_181
+    21300364: joustsprites_182
+    21300366: joustsprites_183
+    21300368: joustsprites_184
+    21300370: joustsprites_185
+    21300372: joustsprites_186
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: joustsprites_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 497
+        width: 67
+        height: 15
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 497
+        width: 94
+        height: 15
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 493
+        width: 178
+        height: 18
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_3
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 495
+        width: 127
+        height: 16
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 461
+        width: 117
+        height: 22
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 468
+        width: 94
+        height: 15
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 467
+        width: 130
+        height: 16
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 456
+        width: 32
+        height: 27
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_8
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 456
+        width: 34
+        height: 27
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 441
+        width: 374
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_10
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 404
+        width: 32
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_11
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 405
+        width: 29
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_12
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 404
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_13
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 404
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_14
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 406
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 367
+        width: 29
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 369
+        width: 33
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 354
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 355
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 354
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_20
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 354
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_21
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 356
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_22
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 367
+        width: 29
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_23
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 368
+        width: 32
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_24
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 355
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_25
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 355
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_26
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 355
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_27
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 355
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_28
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 359
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_29
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 319
+        width: 34
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 319
+        width: 31
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_31
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 305
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_32
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 304
+        width: 27
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_33
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 304
+        width: 26
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_34
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 304
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_35
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 309
+        width: 29
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_36
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 319
+        width: 33
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_37
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 319
+        width: 31
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_38
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 317
+        width: 32
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_39
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 317
+        width: 30
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_40
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 317
+        width: 30
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_41
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 317
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_42
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 319
+        width: 31
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_43
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 279
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_44
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 269
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_45
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 267
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_46
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 267
+        width: 30
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_47
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 264
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_48
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 267
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_49
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 269
+        width: 30
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_50
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 279
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_51
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 268
+        width: 32
+        height: 27
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_52
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 281
+        width: 24
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_53
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 281
+        width: 25
+        height: 15
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_54
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 280
+        width: 26
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_55
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 280
+        width: 24
+        height: 15
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_56
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 281
+        width: 25
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_57
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 243
+        width: 24
+        height: 15
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_58
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 233
+        width: 17
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_59
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 243
+        width: 24
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_60
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 243
+        width: 24
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_61
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 233
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_62
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 243
+        width: 25
+        height: 15
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_63
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 243
+        width: 24
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_64
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 233
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_65
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 240
+        width: 12
+        height: 17
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_66
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 245
+        width: 14
+        height: 12
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_67
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 245
+        width: 14
+        height: 12
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_68
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 245
+        width: 18
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_69
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 235
+        width: 30
+        height: 22
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_70
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 251
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_71
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 233
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_72
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 249
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_73
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 244
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_74
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 238
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_75
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 238
+        width: 23
+        height: 20
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_76
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 227
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_77
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 239
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_78
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 237
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 182
+        width: 27
+        height: 35
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_80
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 181
+        width: 27
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_81
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 205
+        width: 6
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_82
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 201
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_83
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 208
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_84
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 191
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_85
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 192
+        width: 13
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_86
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 206
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_87
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 209
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_88
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 213
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_89
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 209
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_90
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 194
+        width: 83
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_91
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 201
+        width: 50
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_92
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 195
+        width: 58
+        height: 22
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_93
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 203
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_94
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 203
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_95
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 203
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_96
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 203
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_97
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 189
+        width: 15
+        height: 22
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_98
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 201
+        width: 9
+        height: 8
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_99
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 198
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_100
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 201
+        width: 11
+        height: 8
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_101
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_102
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_103
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_104
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_105
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_106
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_107
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_108
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_109
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 133
+        width: 10
+        height: 38
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_110
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_111
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_112
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_113
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_114
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_115
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 157
+        width: 6
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_116
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_117
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_118
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_119
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 157
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_120
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_121
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_122
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_123
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_124
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_125
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_126
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_127
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_128
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 157
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_129
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 133
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_130
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 133
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_131
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 133
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_132
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 133
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_133
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 133
+        width: 54
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_134
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 133
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_135
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 133
+        width: 6
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_136
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 133
+        width: 6
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_137
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 141
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_138
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 133
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_139
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 133
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_140
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 143
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_141
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 137
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_142
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 137
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_143
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 137
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_144
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 137
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_145
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 137
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_146
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 137
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_147
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 137
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_148
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 137
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_149
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 137
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_150
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 137
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_151
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 137
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_152
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 137
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_153
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 137
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_154
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 137
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_155
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 137
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_156
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 133
+        width: 16
+        height: 6
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_157
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 135
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_158
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_159
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_160
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_161
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_162
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_163
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_164
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_165
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 113
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_166
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_167
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_168
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_169
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_170
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_171
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_172
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_173
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 113
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_174
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_175
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_176
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_177
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 113
+        width: 42
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_178
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_179
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 113
+        width: 20
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_180
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_181
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_182
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_183
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 113
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_184
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 113
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_185
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 109
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joustsprites_186
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 109
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
