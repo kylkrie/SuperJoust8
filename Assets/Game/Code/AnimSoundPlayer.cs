@@ -5,6 +5,8 @@ public class AnimSoundPlayer : MonoBehaviour {
 
 	public AudioClip[] _clips;
 	public AudioSource _source;
+	[Range(0f, 1f)]
+	public float _volume;
 
 	private int _clipIndex;
 
@@ -13,6 +15,7 @@ public class AnimSoundPlayer : MonoBehaviour {
 			_source.Stop();
 		}
 		_source.clip = _clips[index];
+		_source.volume = _volume;
 		_source.Play();
 		_clipIndex = index;
 	}

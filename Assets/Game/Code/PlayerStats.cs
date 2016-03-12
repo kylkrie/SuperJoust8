@@ -10,6 +10,16 @@ public class PlayerStats : MonoBehaviour {
 	void Awake () {
 		_startText = _textBox.text;
 		PlayerManager.instance.OnPlayerKill += OnPlayerKill;
+		UiManager.instance.OnRoundStart += OnRoundStart;
+	}
+
+	void OnDestroy () {
+		PlayerManager.instance.OnPlayerKill -= OnPlayerKill;
+		UiManager.instance.OnRoundStart -= OnRoundStart;
+	}
+
+	void OnRoundStart () {
+		Destroy (gameObject);
 	}
 
 	private void OnPlayerKill(PlayerManager.Player killer, PlayerManager.Player victim) {

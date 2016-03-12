@@ -10,14 +10,12 @@ public class PlayerController : MonoBehaviour {
 	public Vector2 _bounceForce;
 	public float _maxSpeedX;
 	public BoxCollider2D _playerHitBox;
+	public BoxCollider2D _platformHitBox;
 	public GameObject _spriteContainer;
 	public Rigidbody2D _rb;
 	public Animator _anim;
-	public AudioSource _audioSource;
-	public AudioSource _killSource;
-	public AudioClip _jumpClip;
-	public AudioClip _killClip;
-	public AudioClip _stopClip;
+	public AudioController _audioController;
+	public SpriteRenderer _rider;
 
 	private float _horizontal;
 	private Player _player; // The Rewired Player
@@ -28,16 +26,18 @@ public class PlayerController : MonoBehaviour {
 	private bool _flipped;
 	private float _accelX;
 	private bool _stopping;
+	private bool _isDead;
 
 	[System.NonSerialized] // Don't serialize this so the value is lost on an editor script recompile.
 	private bool initialized;
 
-	private void Awake() {
+	private void Start() {
 		_prevVelocity = Vector2.zero;
 		StartCoroutine(SpawnFrames());
 	}
 
 	IEnumerator SpawnFrames() {
+		_audioController.PlayClip ("Spawn");
 		_playerHitBox.enabled = false;
 		for (var i = 0; i < 5; i++) {
 			yield return new WaitForSeconds(0.3f);
@@ -46,6 +46,34 @@ public class PlayerController : MonoBehaviour {
 			_spriteContainer.SetActive(true);
 		}
 		_playerHitBox.enabled = true;
+	}
+
+	public IEnumerator DeathAnimation(){
+		_isDead = true;
+		_isGrounded = false;
+		_rider.enabled = false;
+		_playerHitBox.enabled = false;
+		_platformHitBox.enabled = false;
+		yield return new WaitForSeconds (0.2f);
+		_rb.velocity = _maxSpeedX * (_rb.position.x > 0 ? Vector2.right : Vector2.left);
+		if ((_rb.velocity.x > 0 && _flipped) || (_rb.velocity.x < 0 && !_flipped)) {
+			FlipScaleX();
+		}
+		for (var i = 0; i < 2; i++) {
+			_flap = true;
+			_rb.AddForce(Vector2.up * _moveForce.y);
+			_audioController.PlayClip("Flap");
+			yield return new WaitForSeconds (0.2f);
+			_flap = false;
+			yield return new WaitForSeconds (0.1f);
+			_flap = true;
+			_rb.AddForce(Vector2.up * _moveForce.y);
+			_audioController.PlayClip("Flap");
+			yield return new WaitForSeconds (0.2f);
+			_flap = false;
+			yield return new WaitForSeconds (0.3f);
+		}
+		Destroy (gameObject);
 	}
 
 	private void Initialize() {
@@ -60,9 +88,11 @@ public class PlayerController : MonoBehaviour {
 			return; // Exit if Rewired isn't ready. This would only happen during a script recompile in the editor.
 		if (!initialized) Initialize(); // Reinitialize after a recompile in the editor
 
-		GetInput();
-		ProcessInput();
-		DoPhysics();
+		if (_isDead == false) {
+			GetInput ();
+			ProcessInput();
+			DoPhysics ();
+		}
 		UpdateAnimation();
 		_prevVelocity = _rb.velocity;
 	}
@@ -98,14 +128,14 @@ public class PlayerController : MonoBehaviour {
 
 		if (_accelX < 0 && _isGrounded) {
 			if (_stopping == false) {
-				PlayClip(_stopClip);
+				_audioController.PlayClip("Stop");
 			}
 			_stopping = true;
 			vel.x += vel.x > 0 ? -0.03f : 0.03f;
 		}
 		else {
 			if (_stopping) {
-				StopStoppingClip();
+				_audioController.StopClip("Stop");
 			}
 			_stopping = false;
 		}
@@ -113,14 +143,9 @@ public class PlayerController : MonoBehaviour {
 		if (Mathf.Abs(vel.x) < 0.1f) {
 			vel.x = 0f;
 		}
+
 		_rb.velocity = vel;
 		_accelX = Mathf.Abs(_rb.velocity.x) - Mathf.Abs(_prevVelocity.x);
-	}
-
-	void StopStoppingClip() {
-		if (_audioSource.isPlaying && _audioSource.clip == _stopClip) {
-			_audioSource.Stop();
-		}
 	}
 
 	private void GetInput() {
@@ -135,27 +160,30 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	private void OnCollisionEnter2D(Collision2D collision) {
+		if (_isDead) {
+			return;
+		}
 		var other = collision.gameObject.GetComponent<PlayerController>();
 		var forceBounce = false;
 		if (other != null) {
 			if (Mathf.Abs(other._rb.position.y - _rb.position.y) < 0.05f) {
+				_audioController.PlayClip("Collide");
 				forceBounce = true;
 			}
 			else if (other._rb.position.y < _rb.position.y) {
 				PlayerManager.instance.KillPlayer(_playerId, other);
-				PlayClip(_killClip, _killSource);
+				_audioController.PlayClip("Kill");
 				forceBounce = true;
 			}
 		}
 		var contact = collision.contacts[0];
-		var localContactPoint = contact.point - new Vector2(transform.position.x, transform.position.y);
-		Debug.LogError(localContactPoint.y);
-		if (localContactPoint.y > 0.05f || forceBounce) {
+		if (contact.normal != Vector2.up || forceBounce) {
 			var forward = _rb.velocity.normalized;
 			if (forward.Equals(Vector2.zero)) {
 				var diff = collision.transform.position - transform.position;
 				forward = new Vector2(diff.x, diff.y);
 			}
+			forward -= contact.normal;
 			forward.x *= _bounceForce.x;
 			forward.y *= _bounceForce.y;
 			var dot = Vector3.Dot(contact.normal, (-forward));
@@ -163,6 +191,9 @@ public class PlayerController : MonoBehaviour {
 			var reflection = contact.normal*dot;
 			reflection = reflection + forward;
 			_rb.velocity = reflection.normalized*forward.magnitude;
+			if(!forceBounce){
+				_audioController.PlayClip("Bounce");
+			}
 		}
 		else {
 			_anim.SetTrigger(("Land"));
@@ -179,23 +210,12 @@ public class PlayerController : MonoBehaviour {
 		}
 	}
 
-	void PlayClip(AudioClip clip, AudioSource _source = null) {
-		if (_source == null) {
-			_source = _audioSource;
-		}
-		if (_source.isPlaying) {
-			_source.Stop();
-		}
-		_source.clip = clip;
-		_source.Play();
-	}
-
 	private void ProcessInput() {
 		var yForce = 0f;
 		if (_flap && !_flapping) {
 			_flapping = true;
 			yForce = _moveForce.y;
-			PlayClip(_jumpClip);
+			_audioController.PlayClip("Flap");
 		}
 		_rb.AddForce(new Vector2(_horizontal * _moveForce.x * Mathf.Max(1f, 10f*_accelX), yForce));
 	}
