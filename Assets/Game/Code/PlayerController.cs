@@ -37,6 +37,13 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	IEnumerator SpawnFrames() {
+		yield return 1;
+		var spriteList = GetComponentsInChildren<SpriteRenderer> (true);
+		foreach (var renderer in spriteList) {
+			renderer.color = PlayerManager.instance._overlays[_playerId];
+		}
+		_rider.sprite = PlayerManager.instance._riderList [_playerId];
+
 		_audioController.PlayClip ("Spawn");
 		_playerHitBox.enabled = false;
 		for (var i = 0; i < 5; i++) {
@@ -217,6 +224,6 @@ public class PlayerController : MonoBehaviour {
 			yForce = _moveForce.y;
 			_audioController.PlayClip("Flap");
 		}	
-		_rb.AddForce(new Vector2(_horizontal * _moveForce.x * Mathf.Clamp(Mathf.Abs(_rb.velocity.x * _rb.velocity.x), 1.6f, 6f) * 0.5f, yForce));
+		_rb.AddForce(new Vector2(_horizontal * _moveForce.x * Mathf.Clamp(Mathf.Abs(_rb.velocity.x), 1.6f, 2.5f), yForce));
 	}
 }

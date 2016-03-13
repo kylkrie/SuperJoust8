@@ -11,6 +11,8 @@ public class PlayerManager : MonoBehaviour {
 	public int _startLives;
 	public int _playerCount;
 	public Transform[] _spawnPoints;
+	public Color[] _overlays;
+	public Sprite[] _riderList;
 
 	public Dictionary<int, Player> _playerList;
 	public event Action<Player, Player> OnPlayerKill;

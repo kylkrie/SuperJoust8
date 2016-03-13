@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class PlayerStats : MonoBehaviour {
 
 	[SerializeField] private TextMeshProUGUI _textBox;
+	public Image _sprite;
 	private string _startText;
 	private int _playerId;
 
@@ -31,7 +33,7 @@ public class PlayerStats : MonoBehaviour {
 
 	public void UpdateStats(PlayerManager.Player player) {
 		_playerId = player.id;
-
+		_sprite.color = PlayerManager.instance._overlays [_playerId];
 		_textBox.text = string.Format(_startText, _playerId + 1, player.lives, player.kills);
 	}
 }
