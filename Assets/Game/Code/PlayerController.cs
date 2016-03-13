@@ -131,7 +131,7 @@ public class PlayerController : MonoBehaviour {
 				_audioController.PlayClip("Stop");
 			}
 			_stopping = true;
-			vel.x += vel.x > 0 ? -0.03f : 0.03f;
+			vel.x += vel.x > 0 ? -0.025f : 0.025f;
 		}
 		else {
 			if (_stopping) {
@@ -216,7 +216,7 @@ public class PlayerController : MonoBehaviour {
 			_flapping = true;
 			yForce = _moveForce.y;
 			_audioController.PlayClip("Flap");
-		}
-		_rb.AddForce(new Vector2(_horizontal * _moveForce.x * Mathf.Max(1f, 10f*_accelX), yForce));
+		}	
+		_rb.AddForce(new Vector2(_horizontal * _moveForce.x * Mathf.Clamp(Mathf.Abs(_rb.velocity.x * _rb.velocity.x), 1.6f, 6f) * 0.5f, yForce));
 	}
 }
